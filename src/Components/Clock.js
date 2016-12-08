@@ -1,6 +1,5 @@
 import React  from 'react';
 
-
 class Clock extends React.Component {
   constructor(props) {
     super(props);
@@ -10,7 +9,7 @@ class Clock extends React.Component {
   componentDidMount() {
     this.timerID = setInterval(
       () => this.tick(),
-      -1000
+      1000
     );
   }
 
