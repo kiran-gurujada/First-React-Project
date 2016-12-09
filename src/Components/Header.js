@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
-
 class HeaderComponent extends Component {
-  render() {
+  render(){
     return (
-      <main>
+       <div>
         <header className="Header">
           <h3>GURUJADA</h3>
         </header>
@@ -12,9 +11,9 @@ class HeaderComponent extends Component {
           <h2>Walk In Interviews</h2>
           <h3>Register Below</h3>
         </div>
-      </main>
+        </div>
     );
+   }
   }
-}
 
 export default HeaderComponent;
